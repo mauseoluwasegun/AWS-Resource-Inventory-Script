@@ -51,7 +51,8 @@ Verifies that the AWS CLI is installed and configured.
 Executes the appropriate AWS CLI command to list resources based on the service name.
 
 ### 📌 Supported Services and Commands
-🖥️ ```EC2 — List EC2 instances
+🖥️ ```bash EC2 — List EC2 instances
+   ```bash
 
 ## aws ec2 describe-instances --region <region>
 🪣 ```S3 — List all S3 buckets
