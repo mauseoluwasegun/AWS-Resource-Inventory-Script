@@ -96,8 +96,7 @@ aws ec2 describe-vpcs --region <region>
 aws cloudformation list-stacks --region <region>
 
 ### 🧑‍💼 IAM — List users
-```bash
-aws iam list-users
+-` aws iam list-users`
 
 ⚠️ Error Handling
 If incorrect arguments are provided, a usage message is displayed.
