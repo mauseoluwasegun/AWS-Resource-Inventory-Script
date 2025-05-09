@@ -110,7 +110,9 @@ If an unsupported service is provided, the script displays a list of supported s
 📄 License
 MIT License
 
-```   You can now copy this and paste it directly into your `README.md`. GitHub will render it beautifully with emojis,     formatting, and syntax highlighting.
+```   
+
+You can now copy this and paste it directly into your `README.md`. GitHub will render it beautifully with emojis,     formatting, and syntax highlighting.
 
 Would you like a downloadable `.md` file or help pushing this to your repo?
 
