@@ -50,53 +50,52 @@ Verifies that the AWS CLI is installed and configured.
 ✅ Service Execution
 Executes the appropriate AWS CLI command to list resources based on the service name.
 
-📌 Supported Services and Commands
-🖥️ EC2 — List EC2 instances
+### 📌 Supported Services and Commands
+🖥️ ```EC2 — List EC2 instances```
 
-aws ec2 describe-instances --region <region>
-🪣 S3 — List all S3 buckets
+## aws ec2 describe-instances --region <region>
+🪣 ```S3 — List all S3 buckets```
 
-aws s3api list-buckets --region <region>
+## aws s3api list-buckets --region <region>
 🗄️ RDS — List RDS DB instances
 
-aws rds describe-db-instances --region <region>
-🧮 DynamoDB — List DynamoDB tables
+## aws rds describe-db-instances --region <region>
+🧮 ```DynamoDB — List DynamoDB tables```
 
-aws dynamodb list-tables --region <region>
+## aws dynamodb list-tables --region <region>
 🌀 Lambda — List Lambda functions
 
-aws lambda list-functions --region <region>
-🌍 CloudFront — List distributions
+## aws lambda list-functions --region <region>
+🌍``` CloudFront — List distributions```
 
-aws cloudfront list-distributions --region <region>
-💾 EBS — List EBS volumes
+## aws cloudfront list-distributions --region <region>
+💾 ```EBS — List EBS volumes```
 
 aws ec2 describe-volumes --region <region>
-🔁 ELB — List load balancers
+🔁 ```ELB — List load balancers```
 
-aws elb describe-load-balancers --region <region>
-📊 CloudWatch — List alarms
+## aws elb describe-load-balancers --region <region>
+📊 ```CloudWatch — List alarms```
 
-aws cloudwatch describe-alarms --region <region>
-📣 SNS — List topics
+## aws cloudwatch describe-alarms --region <region>
+📣``` SNS — List topics```
 
-aws sns list-topics --region <region>
-📬 SQS — List queues
+## aws sns list-topics --region <region>
+📬``` SQS — List queues```
 
 
-aws sqs list-queues --region <region>
-🧭 Route 53 — List hosted zones
+## aws sqs list-queues --region <region>
+🧭 ```Route 53 — List hosted zones```
 
-aws route53 list-hosted-zones
-🕸️ VPC — List VPCs
+## aws route53 list-hosted-zones
+🕸️ ```VPC — List VPCs```
 
-aws ec2 describe-vpcs --region <region>
-🧱 CloudFormation — List stacks
+## aws ec2 describe-vpcs --region <region>
+🧱 ```CloudFormation — List stacks```
 
 aws cloudformation list-stacks --region <region>
-🧑‍💼 IAM — List users
-
-aws iam list-users
+🧑‍💼 ```IAM — List users```
+## aws iam list-users
 
 ##⚠️ Error Handling
 If incorrect arguments are provided, a usage message is displayed.
@@ -110,11 +109,5 @@ If an unsupported service is provided, the script displays a list of supported s
 📄 License
 MIT License
 
-```   
 
-You can now copy this and paste it directly into your `README.md`. GitHub will render it beautifully with emojis,     formatting, and syntax highlighting.
-
-Would you like a downloadable `.md` file or help pushing this to your repo?
-
-```
 
