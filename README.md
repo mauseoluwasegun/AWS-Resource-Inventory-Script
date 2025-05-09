@@ -36,7 +36,6 @@ The script currently supports the following AWS services:
 
 Run the script with the following syntax:
 
-```bash
 ./aws_resource_list.sh <region> <service_name>
 
 
@@ -52,7 +51,7 @@ Executes the appropriate AWS CLI command to list resources based on the service 
 
 ### 📌 Supported Services and Commands
 🖥️ ```bash EC2 — List EC2 instances
-   ```bash
+
 
 ## aws ec2 describe-instances --region <region>
 🪣 ```S3 — List all S3 buckets
