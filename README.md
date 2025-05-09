@@ -51,50 +51,50 @@ Verifies that the AWS CLI is installed and configured.
 Executes the appropriate AWS CLI command to list resources based on the service name.
 
 ### 📌 Supported Services and Commands
-🖥️ ```EC2 — List EC2 instances```
+🖥️ ```EC2 — List EC2 instances
 
 ## aws ec2 describe-instances --region <region>
-🪣 ```S3 — List all S3 buckets```
+🪣 ```S3 — List all S3 buckets
 
 ## aws s3api list-buckets --region <region>
-🗄️ RDS — List RDS DB instances
+🗄️``` RDS — List RDS DB instances
 
 ## aws rds describe-db-instances --region <region>
-🧮 ```DynamoDB — List DynamoDB tables```
+🧮 ```DynamoDB — List DynamoDB tables
 
 ## aws dynamodb list-tables --region <region>
-🌀 Lambda — List Lambda functions
+🌀 ```Lambda — List Lambda functions
 
 ## aws lambda list-functions --region <region>
-🌍``` CloudFront — List distributions```
+🌍``` CloudFront — List distributions
 
 ## aws cloudfront list-distributions --region <region>
-💾 ```EBS — List EBS volumes```
+💾 ```EBS — List EBS volumes
 
 aws ec2 describe-volumes --region <region>
-🔁 ```ELB — List load balancers```
+🔁 ```ELB — List load balancers
 
 ## aws elb describe-load-balancers --region <region>
-📊 ```CloudWatch — List alarms```
+📊 ```CloudWatch — List alarms
 
 ## aws cloudwatch describe-alarms --region <region>
-📣``` SNS — List topics```
+📣``` SNS — List topics
 
 ## aws sns list-topics --region <region>
-📬``` SQS — List queues```
+📬``` SQS — List queues
 
 
 ## aws sqs list-queues --region <region>
-🧭 ```Route 53 — List hosted zones```
+🧭 ```Route 53 — List hosted zones
 
 ## aws route53 list-hosted-zones
-🕸️ ```VPC — List VPCs```
+🕸️ ```VPC — List VPCs
 
 ## aws ec2 describe-vpcs --region <region>
-🧱 ```CloudFormation — List stacks```
+🧱 ```CloudFormation — List stacks
 
 aws cloudformation list-stacks --region <region>
-🧑‍💼 ```IAM — List users```
+🧑‍💼 ```IAM — List users
 ## aws iam list-users
 
 ##⚠️ Error Handling
